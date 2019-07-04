@@ -46,3 +46,10 @@ Para testar:
 ```bash
 $ sudo cgps
 ```
+
+Após isso:
+
+```bash
+$ sudo killall gpsd
+```
+
