@@ -18,23 +18,6 @@ Selecione interfacing options -> Serial -> Yes e Yes to reboot
 $ sudo apt-get install gpsd-clients gpsd -y
 ```
 
-Edite o arquivo de configuração:
-
-
-```bash
-$ sudo nano /etc/default/gpsd
-```
-
-Procure por:
-
-DEVICES=""
-
-e mude por:
-
-DEVICES="/dev/ttyS0" 
-
-Reboot
-
 ** Se você estiver usando gpsd manualmente, você precisa iniciá-lo antes de rodar gpsmon ou cgps:
 
 ```bash
